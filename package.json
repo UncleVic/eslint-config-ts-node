@@ -1,6 +1,6 @@
 {
   "name": "@unclevic/eslint-ts-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint's settings for backend projects on TypeScript",
   "main": "index.js",
   "scripts": {
