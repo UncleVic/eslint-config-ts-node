@@ -1,0 +1,38 @@
+{
+  "name": "eslint-ts-node",
+  "version": "1.0.0",
+  "description": "Eslint's settings for backend projects on TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "patch": "npm version patch && git push origin && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UncleVic/eslint-ts-node.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "node.js",
+    "eslint",
+    "tslint",
+    "typescript",
+    "config"
+  ],
+  "author": "UncleVic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UncleVic/eslint-ts-node/issues"
+  },
+  "homepage": "https://github.com/UncleVic/eslint-ts-node#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.4",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  }
+}
