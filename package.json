@@ -11,6 +11,7 @@
     "url": "git+https://github.com/UncleVic/eslint-config-ts-node.git"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.com/"
   },
   "keywords": [
